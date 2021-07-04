@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 var name =prompt("what is your name?")/alert("welcome to the Moviesworld website " + name)
  while(favmovie != "action" && favmovie != "romance" &&favmovie!="comedy" && favmovie!= "drama" && favmovie !="all types")
+=======
+var name =prompt("what is your name?")
+alert("welcome to the Moviesworld website " + name)
+while(favmovie != "action" && favmovie != "romance" &&favmovie!="comedy" && favmovie!= "drama" && favmovie !="all types")
+>>>>>>> 982b22a63d068edcd74db55404047507aed49707
 {
 var favmovie = prompt("what is your favGenre of movies : action,romance,drama,comedy,all types") }
 
@@ -22,6 +28,7 @@ if (time >= 1 && time <= 10) {
 
 for (var i = 0; i < x; i++) { document.write("<h3>" + "movie" + "</h3>") }
 { alert("it is a joke!") }
+<<<<<<< HEAD
 
 function ram(num){
   var answer= ''
@@ -35,3 +42,11 @@ return answer;
 var star= prompt("how many stars do you give our website to rate it ")
 for(var r=0;0<star;r++){
   " <img src=' https://purepng.com/public/uploads/large/purepng.com-gold-starstargeometricallydecagonconcavestardomyellow-stargold-1421526501440ojzfo.png '  "
+=======
+
+var star= prompt("how many stars do you give our website to rate it ")
+for(var r=0;0<star;r++){
+  " <img src=' https://purepng.com/public/uploads/large/purepng.com-gold-starstargeometricallydecagonconcavestardomyellow-stargold-1421526501440ojzfo.png '  "
+}
+  
+>>>>>>> 982b22a63d068edcd74db55404047507aed49707
