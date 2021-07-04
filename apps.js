@@ -1,41 +1,34 @@
-var name = prompt ("what is your name?")
-console.log(name) 
-alert("Welcome to the movieworld "  + name)
+var name = prompt("what is you name?")
+console.log(name)
 
-var favMovie = prompt("what is your favGenre from movies?              action,comedy,adventure,drama,romance,all of above")
- 
-  if (favMovie == null)
-  
-   {alert ("please input answer")}
- 
- var favMovie = prompt("what is your favGenre from movies?              action,comedy,adventure,drama,romance,all of above") 
- 
- var x = ("Great choice! You will find all kinds of movies you want on this website.") 
-if (favMovie !=null)
-{document.write ("<h4>" + x + "</h4>" )} 
+alert("welcome to the MoviesWorld website " + name)
 
-var r = prompt("Approximately ,how many time have you watched the same movie? ")
-
-if (r >= 1 && r <=10 ){
-  alert("That is great , It sure is a nice movie")
-
- }
-
-else{
-   alert("that is so many times, you seem to be a top fan ")
-}
-
-var watch =prompt("what you have watched form these movies : the old guard,6 underground,joker,luca")
-
-
-var time=prompt("how many times do you want to watch it again? ")
-
-for(var i = 0 ; i < time; i++)
+while(favmovie != "action" && favmovie != "romance" &&favmovie!="comedy" && favmovie!= "drama" && favmovie !="all types")
 {
+var favmovie = prompt("what is your favGenre of movies : action,romance,drama,comedy,all types") }
 
-document.write("<div>" + "<h4>" + watch +"</h4>")
+if (favmovie == null) {
+  alert("please input your favgenre")
 
+  var favmovie = prompt("what is your favGenre of movies : action,romance,drama,comedy,all types")
+}
+else {
+  alert("that is good ")
 
 }
-alert("Itis a joke!")
+while(movie !="the old gaurd" && movie !="luca" && movie!="6 underground" && movie !="joker")
+{
+var movie = prompt("what are watch from these movies :the old gaurd,joker,6 underground,luca") }
+var time = prompt("how many time you watch it?")
+if (time >= 1 && time <= 10) {
+  alert("that is great! ,it should be a nice one")
+}
+var x = prompt("how many times do you want see movie word in this website ")
 
+for (var i = 0; i < x; i++) { document.write("<h3>" + "movie" + "</h3>") }
+{ alert("it is a joke!") }
+
+var star= prompt("how many stars do you give our website to rate it ")
+for(var r=0;0<star;r++){
+  " <img src=' https://purepng.com/public/uploads/large/purepng.com-gold-starstargeometricallydecagonconcavestardomyellow-stargold-1421526501440ojzfo.png  '  "
+}
